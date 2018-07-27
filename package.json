@@ -9,7 +9,7 @@
     "body-parser": "^1.14.2",
     "command-line-args": "^3.0.0",
     "express": "^4.13.3",
-    "https-proxy-agent": "^1.0.0",
+    "https-proxy-agent": "^2.2.1",
     "jfs": "^0.2.6",
     "localtunnel": "^1.8.1",
     "mustache": "^2.2.1",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/howdyai/botkit.git"
+    "url": "git+https://github.com/howdyai/botkit.git"
   },
   "bugs": {
     "url": "https://github.com/howdyai/botkit/issues"
@@ -42,5 +42,8 @@
     "slack"
   ],
   "author": "ben@xoxco.com",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "example": "examples"
+  }
 }
